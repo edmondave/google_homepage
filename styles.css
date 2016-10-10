@@ -1,15 +1,27 @@
 .content {
-	height: 100%; 
+	height: 98%; 
+	font-size: 13px;
+	font-family: arial;
 }
 ul {
 	/*Remove the bullets from all unordered lists on the page*/
 	list-style: none;
 }
 
+#signin {
+	background-color: rgb(66, 133, 244);
+	height: 28px;
+	width: 43px;
+	text-align: center;
+	line-height: 35px;
+}
+
 .header {
 	float: right;
 	/* forcing this to stay at the top and hopefully not disapear */
-	top: 2px;
+	padding-top: 15px;
+	/* relieve right side a little */
+	padding-right: 20px; 
 }
 /* Styling for the top navbar list items*/
 .header li {
@@ -68,7 +80,10 @@ ul {
 }
 #g_sch {
 	height: 36px;
+		margin-top: 25px;
+	height: 36px;
 }
+
 /* Styling for the entire footer */
 .footer {
 	/* force the footer to the bottom of the page*/
@@ -93,9 +108,13 @@ ul {
 .l_footer {
 	/* force the whole thing to the left side */
 	float: left;
+	/* relieve left side a little */
+	padding-left: 20px;
 }
 /* styling for the right side of the footer*/
 .r_footer {
 	/* push the entire thing to the right side*/
 	float: right;
+	/* relieve right side a little */
+	padding-right: 20px; 
 }
