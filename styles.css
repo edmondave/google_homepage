@@ -1,3 +1,4 @@
+/* This is where we establish the basic styles for everything.  */
 .content {
 	height: 98%; 
 	font-size: 13px;
@@ -8,6 +9,7 @@ ul {
 	list-style: none;
 }
 
+/* the sign in block is different and has pretty colors.  */
 #signin {
 	background-color: rgb(66, 133, 244);
 	height: 28px;
@@ -16,6 +18,7 @@ ul {
 	line-height: 35px;
 }
 
+/* styling for the header menu */
 .header {
 	float: right;
 	/* forcing this to stay at the top and hopefully not disapear */
@@ -46,7 +49,7 @@ ul {
 	padding-bottom: 25px;
 }
 
-/*lets try to draw a pretty box */
+/*lets draw a pretty box */
 .sch_box {
 	border: solid 1px;
 	height: 38px; 
@@ -55,6 +58,7 @@ ul {
 	margin: auto;
 	border-color: rgb(217, 217, 217);
 }
+/* this is the form inside the pretty box. */
 #sch_qry {
 	height: 26px;
 	line-height: 26px;
@@ -66,6 +70,7 @@ ul {
 	width: 90%
 
 }
+/* this is the mic logo on the right side of the pretty box */
 #mic {
 	width: 24px;
 	height: 24px; 
@@ -73,11 +78,13 @@ ul {
 	float: right;
 	padding: 4px 4px;
 }
+/* this is where I tried to make my buttons look like googles.  damn wizards */
 .button {
 	margin-top: 25px;
 	height: 36px;
 	line-height: 27px;
 }
+/*still trying to make my button look cool.  I failed.  damn google wizards*/
 #g_sch {
 	height: 36px;
 		margin-top: 25px;
