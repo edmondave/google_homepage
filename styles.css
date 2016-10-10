@@ -1,0 +1,56 @@
+ul {
+	/*Remove the bullets from all unordered lists on the page*/
+	list-style: none;
+}
+
+.header {
+	float: right;
+}
+/* Styling for the top navbar list items*/
+.header li {
+	/* make all of the list items show up in a single line*/
+	display: inline-block;
+	/*give everything some room */
+	padding: 2px;
+}
+/* .search is where all of the content outside of header/footers is */
+.search {
+	/* horizontally center everything..hopefully */
+	text-align: center;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* set the size of the main logo */
+#google_logo {
+	height: 92px;
+	width: 272px;
+}
+
+/*lets try to draw a pretty box */
+.sch_box {
+	border: solid 1px;
+	height: 38px; 
+	width: 638px;
+	/* these boxes tend to want to go left.  Margin auto makes it center*/
+	margin: auto;
+}
+
+/* styling for all of the footer list items*/
+.footer li {
+	/* make all of the list items show up in a single line*/
+	display: inline-block;
+	/*give everything some room */
+	padding: 2px;
+}
+/* styling for the left side of the footer*/
+.l_footer {
+	/* force the whole thing to the left side */
+	float: left;
+}
+/* styling for the right side of the footer*/
+.r_footer {
+	/* push the entire thing to the right side*/
+	float: right;
+}
