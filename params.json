@@ -1,0 +1,6 @@
+{
+  "name": "Google homepage",
+  "tagline": "",
+  "body": "This is an attempt to clone the webiste http://wwww.google.com\r\n\r\nIt is from a lesson in The Odin Project cirriculum, project is located: \r\nhttp://www.theodinproject.com/web-development-101/html-css\r\n\r\nI'm using the file reset.css to wipe existing browser data. \r\n\r\nstyles.css includes comments....well a few comments at least.  \r\n\r\nI was unable to mimick the two basic buttons on the google homepage.  I'm pretty sure they're using some kind of magick to make them look the way they do.  Bastard wizzards.  \r\n\r\n\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
